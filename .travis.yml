@@ -1,6 +1,7 @@
-language: ruby
-addons: 
-  chrome: stable
-  firefox: latest
-cache:
-  bundler: true
+lang: ruby
+
+dist: trusty
+
+script: bundle exec rake
+
+rvm: 2.7.3
