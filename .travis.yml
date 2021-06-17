@@ -1,10 +1,3 @@
 language: ruby
-before_script:
-  bundle exec rails db:create db:migrate
-script: 
-  bundle exec rspec
-addons: 
-  chrome: stable
-  firefox: latest
-cache:
-  bundler: true  
+rvm:
+ - 2.7.3 
