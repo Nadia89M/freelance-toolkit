@@ -8,7 +8,7 @@ one:
   number: MyString
   email: MyString
   status: MyString
-  user: one
+  user: john
 
 two:
   name: MyString
@@ -18,4 +18,4 @@ two:
   number: MyString
   email: MyString
   status: MyString
-  user: two
+  user: john
